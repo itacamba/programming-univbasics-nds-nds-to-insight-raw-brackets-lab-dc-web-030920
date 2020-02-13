@@ -13,6 +13,7 @@ def directors_totals(nds)
       movie_counter += 1
     end
     my_hash[director_name] = total_gross_from_movies # This adds the new key and new value to the hash.
+    total_gross_from_movies = 0
     directors_counter += 1
   end
     p my_hash
