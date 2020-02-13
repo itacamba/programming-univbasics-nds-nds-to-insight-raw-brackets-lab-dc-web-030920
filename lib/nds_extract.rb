@@ -4,7 +4,7 @@ require 'directors_database'
 def directors_totals(nds)
   total_gross_from_movies = 0
   directors_counter = 0
-  my_hash = {}
+  my_hash = {} # we create an empty hash where we will be putting new keys and values
   while directors_counter < directors_database.length do
     movie_counter = 0
     director_name = directors_database[directors_counter][:name]
